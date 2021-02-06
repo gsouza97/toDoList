@@ -15,7 +15,7 @@ final DUMMY_TAREFAS = [
   ),
   Tarefa(
     id: 't4',
-    description: 'Assistir Greys Anatomy',
+    description: 'Refatorar o código',
   ),
   Tarefa(
     id: 't5',

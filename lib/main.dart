@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:tasks/providers/tarefas.dart';
-import 'package:tasks/screens/tarefas_form_screen.dart';
-import 'package:tasks/utils/app_routes.dart';
-
-import 'screens/tarefas_screen.dart';
+import './providers/tarefas.dart';
+import './utils/app_routes.dart';
+import './screens/tarefas_form_screen.dart';
+import './screens/tarefas_screen.dart';
 
 void main() {
   runApp(MyApp());

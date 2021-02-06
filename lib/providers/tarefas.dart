@@ -1,10 +1,7 @@
 import 'dart:convert';
-import 'dart:math';
-
 import 'package:flutter/material.dart';
-import 'package:tasks/data/dummy_tarefas.dart';
-import 'package:tasks/providers/tarefa.dart';
 import 'package:http/http.dart' as http;
+import '../providers/tarefa.dart';
 
 class Tarefas with ChangeNotifier {
   final String _baseUrl =

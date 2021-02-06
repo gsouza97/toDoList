@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:tasks/providers/tarefa.dart';
-import 'package:tasks/providers/tarefas.dart';
+import '../providers/tarefa.dart';
 
 class TarefaItem extends StatefulWidget {
   @override
@@ -22,6 +21,7 @@ class _TarefaItemState extends State<TarefaItem> {
           onChanged: (bool value) {
             setState(() {
               tarefa.isDone = value;
+              tarefa.toggleDone(value);
             });
           },
         ),

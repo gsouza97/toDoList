@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
-import 'package:tasks/providers/tarefa.dart';
-import 'package:tasks/providers/tarefas.dart';
+import '../providers/tarefa.dart';
+import '../providers/tarefas.dart';
 
 class TarefasFormScreen extends StatefulWidget {
   @override
