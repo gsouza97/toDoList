@@ -52,7 +52,7 @@ class _TarefasScreenState extends State<TarefasScreen> {
                     'Não há nada para fazer!',
                     style: TextStyle(
                       fontSize: 24,
-                      color: Colors.grey.withOpacity(0.5),
+                      color: Colors.grey.withOpacity(0.6),
                     ),
                   ),
                 )
