@@ -11,7 +11,7 @@ class Tarefas with ChangeNotifier {
 List<Tarefa> _items = [];
 
   List<Tarefa> get items {
-    return [..._items];
+    return [..._items.reversed];
   }
 
   int get itemsCount {
